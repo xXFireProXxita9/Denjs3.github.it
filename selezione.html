@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/png" href="segnalibro.png">
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selezione</title>
+  
+    <style>
+    
+   
+        body {
+
+                background-color: #f1ea7b;
+                background-image: url('foto/sfondosel.jpg'); /* Add this line */
+                background-size: cover; /* Optional: ensures the background image covers the entire page */
+                background-repeat: no-repeat; /* Optional: prevents the background image from repeating */
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffcccb; /* Aggiunge uno sfondo rosa chiaro alla pagina */
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+        }
+        .button {
+            margin: 5px;
+            cursor: pointer;
+            background-color: #6814a0; /* Colore di sfondo dei pulsanti */
+            padding: 15px;
+            border-radius: 10px; /* Arrotonda i bordi dei pulsanti */
+            box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1); /* Aggiunge un'ombra ai pulsanti */
+            transition: transform 0.2s ease-in-out; /* Aggiunge una transizione per l'effetto hover */
+            background-color: rgba(104, 20, 160, 0.5); /* Colore di sfondo trasparente viola dei pulsanti */
+        }
+        .button img {
+            width: 200px;
+            height: auto;
+            border-radius: 40px; /* Arrotonda i bordi delle immagini */
+        }
+        .bottom-right {
+            position: absolute;
+            bottom: 0px;
+            right: 10px;
+            width: 500px; /* Modifica la dimensione dell'immagine */
+            height: auto;
+        }
+        .bottom-left {
+            position: absolute;
+            bottom: 0px;
+            left: 8px;
+            width: 300px; /* Modifica la dimensione dell'immagine */
+            height: auto;
+        }
+        .button:hover {
+            transform: scale(1.05); /* Ingrandisce leggermente il pulsante al passaggio del mouse */
+        }
+        .button p {
+            color: #51ff00; /* Cambia il colore del testo sotto le foto */
+            background-color: rgba(59, 0, 73, 0.5); /* Aggiunge uno sfondo nero trasparente al testo */
+            text-align: center; /* Centra il testo sotto le foto */
+            margin: 10px 0 0 0; /* Aggiunge un margine sopra il testo */
+        }
+        .vignetta  {
+            position :absolute;
+            bottom : 500px;
+            left: 100px;
+            width:300px;
+            height:auto;
+            background-color: rgba(86, 0, 97, 0.5);
+        }
+
+      
+    </style>
+</head>
+<body>
+    <h1 style="color: rgb(0, 0, 0); position: absolute; top: 0; left: 50%; transform: translateX(-50%); font-size: 5em; border: 3px solid rgb(0, 0, 0); padding: 10px; background-color: rgba(111, 0, 255, 0.8);">Seleziona una modalità:</h1>
+    <div class="container">
+        <div class="button">
+            <a href="puzzlegame/index.html">
+                <img src="foto/foto1.jpg" alt="Button 1">
+                <p>Puzzle</p>
+            </a>
+        </div>
+        <div class="button">
+            <a href="acchiappad/index.html">
+                <img src="foto/foto2.jpg" alt="Button 2">
+                <p>Acchiappa la talpa</p>
+            </a>
+        </div>
+        <div class="button">
+            <a href="snake/index.html">
+                <img src="foto/foto3.jpg" alt="Button 3">
+                <p>snake</p>
+            </a>
+        </div>
+        <div class="button">
+            <a href="link4.html">
+                <img src="foto/foto4.jpg" alt="Button 4">
+                <p>Descrizione 1</p>
+            </a>
+        </div>
+    </div>
+    <img src="foto/trasp.PNG" alt="trasp" class="bottom-right">
+    <img src="foto/trasps.png" alt="trasp" class="bottom-left">
+    <img src="foto/vignetta.png" alt="trasp" class="vignetta">
+    
+     
+</body>
+</html>

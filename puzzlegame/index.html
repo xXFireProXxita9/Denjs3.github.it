@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="segnalibro.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Noi Smontati</title>
+        <style>
+            body {
+                background-image: url('sfondo.jpg');
+                background-size: cover; /* Adatta l'immagine per coprire l'intero schermo */
+                background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+                background-attachment: fixed; /* Mantiene l'immagine fissa durante lo scroll */
+            }
+        </style>
+        <link rel="stylesheet" href="puzzle.css">
+        <script src="puzzle.js"></script>
+    </head>
+    <style>
+        h1 {
+            color: rgb(132, 0, 255);
+        background-color: lightpink;
+        }
+        body {
+            background-color: #1a1a1a;
+            color: rgb(255, 255, 255);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            transform: scale(1.5);
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <body>
+       <h1>Sistemaci,siamo troppo storti!</h1>
+        <div id="board" style="color: rgb(119, 0, 255); border: 2px solid rgb(132, 0, 255);"></div>
+        </div>
+        <h1>Tentativi: <span id="turns">0</span></h1>
+    </html>

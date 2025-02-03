@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <link rel="icon" type="image/png" href="foto/segnalibro.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleria</title>
+    <style>
+          body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        background-color: lightpink;
+    }
+        .kodfun-galeri {
+            display: flex;
+            height: 40rem;
+            width: 75rem;
+            gap: 1rem;
+            
+        }
+        .kodfun-galeri > div {
+            flex: 0.1;
+            border-radius: 0.8rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            transition: all 1s cubic-bezier(.25, .4, .45, 1.4);
+            border: 5px solid rgb(122, 7, 126);
+        }
+        .kodfun-galeri > div:hover {
+            flex: 0.2;
+        }
+    </style>
+</head>
+<body>
+    <div class="kodfun-galeri">
+        <div style="background-image: url('foto/kf1.jpg');"></div>
+        <div style="background-image: url('foto/kf2.jpg');"></div>
+        <div style="background-image: url('foto/kf3.jpg');"></div>
+        <div style="background-image: url('foto/kf4.jpg');"></div>
+        <div style="background-image: url('foto/kf5.jpg');"></div>
+        <div style="background-image: url('foto/kf6.jpg');"></div>
+        <div style="background-image: url('foto/kf7.jpg');"></div>
+        <div style="background-image: url('foto/kf8.jpg');"></div>
+        <div style="background-image: url('foto/kf9.jpg');"></div>
+        <div style="background-image: url('foto/kf10.jpg');"></div>
+    </div>
+</body>
+</html>
